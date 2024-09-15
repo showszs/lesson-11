@@ -1,0 +1,9 @@
+@mixin color-prim-white {
+background-color: $color-primary;
+color: $color-white;
+}
+
+@mixin color-gray-line-height {
+    line-height: $line-height-lg;
+    color: $color-gray;
+    }

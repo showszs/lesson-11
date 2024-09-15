@@ -1,0 +1,20 @@
+.navbar {
+    margin-bottom: 116px;
+
+    &__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $gap-lg;
+    }
+    &__link {
+      text-transform: uppercase;
+      color: $color-black;
+      letter-spacing: $letter-spacing;
+      padding: $gap-sm 3px $gap-sm 0;
+    }
+    &__link--active {
+      color: $color-primary;
+      font-weight: 500;
+    }
+  }
+ 
