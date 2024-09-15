@@ -1,16 +1,16 @@
 .footer {
-    background-color: $color-primary;
-    &__section {
-      color: $color-white;
-    }
-    &__section-name {
-      font-size: 1.3rem;
-      font-weight: 500;
-      line-height: 2.3;
-      padding-top: 36px;
-    }
-    &__section-description {
-      font-size: 0.8rem;
-      padding-bottom: 53px;
-    }
+  background-color: $color-primary;
+  &__section {
+    color: $color-white;
   }
+  &__section-name {
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 2.3;
+    padding-top: 36px;
+  }
+  &__section-description {
+    font-size: 0.8rem;
+    padding-bottom: 53px;
+  }
+}
