@@ -1,0 +1,17 @@
+.section {
+    padding-top: 109px;
+    padding-bottom: 90px;
+
+    &__title {
+      color: $color-black;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 500;
+      margin-bottom: 39px;
+    }
+    &__description {
+      line-height: $line-height-lg;
+      color: $color-gray;
+      text-align: center;
+    }
+  }

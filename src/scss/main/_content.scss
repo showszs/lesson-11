@@ -1,0 +1,29 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+    align-items: flex-start;
+    &__title {
+      font-size: 3rem;
+      font-weight: 500;
+      color: $color-black;
+      line-height: $line-height-lg;
+      margin-bottom: 35px;
+    }
+    &__description {
+      line-height: $line-height-lg;
+      margin-bottom: 53px;
+      color: $color-gray;
+    }
+    &__link {
+      @include color-prim-white;
+      text-transform: uppercase;
+      min-width: 225px;
+      min-height: 65px;
+      letter-spacing: $letter-spacing;
+      padding: 0.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }

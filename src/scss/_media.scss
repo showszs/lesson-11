@@ -1,0 +1,129 @@
+@media (max-width: 1280px) {
+    .navbar__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $gap-lg;
+      font-size: 1.5rem;
+    }
+    .content__title {
+      font-size: 4rem;
+      margin-bottom: 30px;
+    }
+    .content__description {
+      @include color-gray-line-height;
+      margin-bottom: 53px;
+      font-size: 1.4rem;
+    }
+    .content__link {
+      min-width: 325px;
+      min-height: 71px;
+    }
+    .section__title {
+      color: $color-black;
+      text-align: center;
+      font-size: 3rem;
+      font-weight: 500;
+      margin-bottom: 39px;
+    }
+    .section__description {
+      @include color-gray-line-height;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    .footer__section-name {
+      font-size: 1.9rem;
+    }
+    .footer__section-description {
+      font-size: 1.3rem;
+    }
+  }
+  
+  @media (max-width: 1024px) {
+    .navbar__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $gap;
+      font-size: 1.8rem;
+    }
+    .content__link {
+      min-width: 350px;
+      min-height: 75px;
+      font-size: 1.2rem;
+    }
+    .video__iframe {
+      height: 500px;
+    }
+    .footer__section-name {
+      font-size: 2rem;
+    }
+    .footer__section-description {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .navbar__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $gap;
+      font-size: 1.9rem;
+    }
+    .content__title {
+      font-size: 4rem;
+      margin-bottom: 30px;
+    }
+    .content__link {
+      min-width: 400px;
+      min-height: 75px;
+      font-size: 1.2rem;
+    }
+    .section__title {
+      color: $color-black;
+      text-align: center;
+      font-size: 4rem;
+      font-weight: 500;
+      margin-bottom: 39px;
+    }
+    .section__description {
+      @include color-gray-line-height;
+      text-align: center;
+      font-size: 1.7rem;
+    }
+    .video__iframe {
+      height: 400px;
+    }
+    .footer__section-name {
+      font-size: 2.2rem;
+    }
+    .footer__section-description {
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 375px) {
+    .navbar__list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8%;
+      font-size: 2rem;
+      line-height: 3;
+    }
+    .navbar {
+      margin-bottom: 70px;
+    }
+    .content__title,
+    .content__description {
+      text-align: center;
+    }
+    .content__link {
+      min-width: 225px;
+      min-height: 65px;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .video__iframe {
+      height: 300px;
+    }
+  }
+  
